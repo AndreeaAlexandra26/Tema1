@@ -1,0 +1,138 @@
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: var(--fs-small);
+    text-transform: uppercase;
+    
+}
+
+nav a{
+    color:aliceblue;
+    text-decoration:none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.background{
+    background-color: #141e4c;
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+
+.titlu{
+    color:#f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 70px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bolder;
+
+}
+
+.subtitlu{
+    justify-content: center;
+    text-align: center;
+    color: #101d42;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+   
+}
+
+.traineri-container{
+    max-width: 2000px;
+    min-width: 120px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    float: left;
+    margin: 1%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+ .nume{
+    color: #fbb44c;
+    width: 100%;
+    font-size:20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(20, 30, 76, 0.9);
+    border-radius: 5px;
+    padding: var(--spacing-tiny) 0;
+    margin-bottom: var(--spacing-medium);
+    margin-top: -25px;
+    z-index: 1;
+ }
+
+ .imagine-trainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -70px;
+    align-items: center;
+    
+ }
+
+
+
+ .bottom {
+    background-color: #141e4c;
+    margin-top: 150px;
+    height: 80px;
+  }
+  
+  .bottom p {
+    padding: 3vh;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
